@@ -99,7 +99,16 @@ figcaption
     background-image: url("../assets/bg/bg4.png") !important
     background-position: top
   &-5
-    //background-image: url("../assets/bg/bg5.png") !important
+    background-image: url("../assets/bg/bg5.png") !important
+    background-position: center
+  &-6
+    background-image: url("../assets/bg/bg6.png") !important
+    background-position: bottom
+  &-7
+    background-image: url("../assets/bg/bg7.png") !important
+    background-position: bottom
+  &-8
+    background-image: url("../assets/bg/bg8.png") !important
     background-position: bottom
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
@@ -115,11 +124,11 @@ figcaption
     background-color: #BDD9FD !important
   &-4
     background-color: #AAB0FA !important
-
   &-5
-    background-color: #1E29A9 !important
+    background-color: #DDD3C2 !important
   &-6
-    background-color: #D4D7FD !important
+    background-color: #E8EAFD !important
+
   &-7
     background-color: #FCF7D5 !important
   &-8
@@ -208,10 +217,12 @@ $custom-card-img-height: 205px
 /*Componets custom*/
 .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content,
 .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-  background-color: #F1D3F6 !important
+  background-color: #F9EEAB !important
+  color: #000 !important
 .linea-tiempo-d.color-primario .linea-tiempo-d__item__content,
 .linea-tiempo-d.color-primario .linea-tiempo-d__item__number
-  background-color: #D4F0E0 !important
+  background-color: $color-acento-contenido !important
+  color: #fff !important
 
 .lista-ul--color.color-adicional-1 li > i:first-of-type
   color: $color-adicional-1 !important
@@ -353,3 +364,7 @@ $custom-card-img-height: 205px
   background-color: #BCC0F5
 .slyder-a__bullets__item--active
   background-color: #2D3BF3
+
+.lista-ul--color.icon-color-white li > i:first-of-type
+  color: white !important
+

@@ -112,21 +112,100 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Semiejes de propulsión',
+      referencia:
+        'MecaData Academy (2021). SEMIEJES // Funcionamiento del semieje. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=EzmuvCqJKxo&ab_channel=MecaDataAcademy',
+    },
+    {
+      tema: 'Con juntas universales',
+      referencia:
+        'JAES Company Español. (2021). ¿Cómo funciona la Junta Cardán (Universal)? La diferencia con la Junta Homocinética. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=vxPCwlxaLmk&ab_channel=JAESCompanyEspa%C3%B1ol',
+    },
+    {
+      tema: 'Con juntas homocinéticas',
+      referencia:
+        'AUTOTECNICATV. (2016). Cómo funcionan las Juntas Homocinéticas. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=ebAHuLfMWnk&ab_channel=AUTOTECNICATV',
+    },
+    {
+      tema: 'Instalación, mantenimiento y revisión de semiejes',
+      referencia:
+        'Elecktro fe2. (2022). Fallas de la junta homocinética y tips para revisarla fácil. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=McaOE5JloSY&ab_channel=Elecktrof2',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Caja de transferencia',
+      significado:
+        'componente que distribuye la potencia del motor a los ejes delantero y trasero en vehículos 4x4.',
+    },
+    {
+      termino: 'Cardán',
+      significado:
+        'eje de transmisión que transfiere la fuerza del motor a las ruedas a través del diferencial.',
+    },
+    {
+      termino: 'Cruceta',
+      significado:
+        'articulación en el cardán que permite la transmisión del movimiento entre ejes en distintos ángulos.',
+    },
+    {
+      termino: 'Diferencial',
+      significado:
+        'mecanismo que permite que las ruedas de un vehículo giren a diferentes velocidades en curvas.',
+    },
+    {
+      termino: 'Eje rígido',
+      significado:
+        'tipo de suspensión donde ambas ruedas están conectadas a un mismo eje, usado en vehículos pesados.',
+    },
+    {
+      termino: 'Embrague multidisco',
+      significado:
+        'sistema de fricción compuesto por varios discos que permite la transmisión progresiva de potencia.',
+    },
+    {
+      termino: 'Junta homocinética',
+      significado:
+        'mecanismo que transmite potencia a las ruedas permitiendo flexibilidad en la dirección y suspensión.',
+    },
+    {
+      termino: 'Semieje',
+      significado:
+        'eje que transmite el torque desde el diferencial hasta las ruedas motrices.',
+    },
+    {
+      termino: 'Triceta',
+      significado:
+        'componente con tres rodillos que permite la transmisión del torque en juntas deslizantes.',
+    },
+    {
+      termino: 'Unidad viscosa',
+      significado:
+        'dispositivo que regula el torque entre ejes o ruedas usando un fluido de alta viscosidad.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'DANA Transejes Colombia. (2002). Homocinéticos.',
+      link: '',
+    },
+    {
+      referencia: 'Grupo ROLCAR. (s.f.). Juntas homocinéticas.',
+      link: '',
+    },
+    {
+      referencia: 'DANA Transejes Colombia. (2002). Homocinéticos. ',
       link: '',
     },
   ],
@@ -135,14 +214,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Olga Constanza Bermudez Jaimes',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -150,9 +229,15 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Carlos Edwin Abello Rubiano',
+          cargo: 'Experto temáticol',
+          centro: 'Centro de Comercio y Turismo - Regional Quindío',
+        },
+        {
+          nombre: 'Paola Alexandra Moya ',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -160,19 +245,16 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Fabian Zarate',
           cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Cielo Damaris Angulo Rodriguez',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
-        },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -180,14 +262,16 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jaime Hernan Tejada',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Daniel Mutis',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
