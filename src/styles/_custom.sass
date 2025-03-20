@@ -2,31 +2,335 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 48%
+    right: 74%
+    width: 98px
+    z-index: 1
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 25%
+    right: 10%
+    width: 98px
+    z-index: 1
+  &-3
+    animation: latido 2s ease-in-out infinite alternate
+    position: absolute
+    top: 68%
+    right: 20%
+    width: 98px
+    z-index: 1
 
 @keyframes float1
   0%
     transform: translateY(20px)
+
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateY(0px)
+
+  100%
+    transform: translateY(20px)
+
+@keyframes latido
+  0%, 100%
+    transform: scale(1)
+  50%
+    transform: scale(1.1)
+  
   
 .banner-principal .tarjeta
   background-position: left 50% !important
+  @media screen and (max-width: $bp-max-lg)
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png") !important
+  @media screen and (max-width: $bp-max-md)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
 
 .banner-principal__row .banner-principal__img
   width: 400px !important  
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+  color: $color-sistema-texto !important   
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.png") !important
 
 .banner-interno__titulo__icono i
-  color: $color-primario
+  color: white !important
+.titulo-principal__numero span
+  color: white !important
+
+.titulo-principal.color-acento-contenido
+  .titulo-principal__numero span, 
+  .banner-interno__titulo__icono i
+    color: $white !important
 
 figcaption
   font-weight: normal
+ 
+
+// Full Width Background
+.bg-full-width, .bg-full-width-2
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-full-width
+  background-size: cover
+.bg-full-width-2
+  background-size: contain
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/bg/bg1.png") !important
+    background-position: bottom
+  &-2
+    background-image: url("../assets/bg/bg2.png") !important
+    background-position: center
+  &-3
+    //background-image: url("../assets/bg/bg3.png") !important
+    background-position: top
+  &-4
+    //background-image: url("../assets/bg/bg4.png") !important
+    background-position: top
+  &-5
+    //background-image: url("../assets/bg/bg5.png") !important
+    background-position: bottom
+  &-slider
+    //background-image: url("../assets/bg/bg-slider.png") !important
+    background-position: bottom
+
+
+.bg-color
+  &-1
+    background-color: #F9EEAB !important
+  &-2
+    background-color: #FCF7D5 !important
+  &-3
+    background-color: #BDD9FD !important
+  &-4
+    background-color: #AAB0FA !important
+    
+  &-5
+    background-color: #1E29A9 !important
+  &-6
+    background-color: #D4D7FD !important
+  &-7
+    background-color: #FCF7D5 !important
+  &-8
+    background-color: #E8EAFD !important
+    
+  &-9
+    background-color: #F9EEAB !important
+  &-10
+    background-color: #D4D7FD !important
+  &-11
+    background-color: #EFD42F !important
+  &-12
+    background-color: #F9EEAB !important
+  &-13
+    background-color: #DEE4F0 !important
+
+  &-14
+    background-color: #E5F0FE !important
+  
+  &-white
+    background-color: white !important
+    border: 1px solid $lightest-gray
+  &-secundario
+    background-color: $color-secundario !important
+  &-acento-contenido
+    background-color: $color-acento-contenido !important
+  &-sintesis
+    background-color: #F6F6F6
+
+// Variables
+$custom-card-border-radius: 16px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FFF
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 205px
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: $custom-card-img-height
+    box-shadow: none !important
+    object-fit: cover
+
+
+.rounded-top
+  border-top-left-radius: 16px !important
+  border-top-right-radius: 16px !important
+
+.rounded-bottom
+  border-bottom-left-radius: 16px !important
+  border-bottom-right-radius: 16px !important
+
+
+.titulo-tres
+  position: relative
+  background: $color-secundario
+  border-radius: 16px 
+  display: inline-block
+  padding: 0.5rem 1.4rem 0.5rem 75px
+
+
+  h3, h4
+    margin: 0
+    line-height: 110% !important
+    color: $color-sistema-texto !important
+    @media screen and (max-width: $bp-max-sm)
+      font-size: 0.99rem
+
+  &::after
+    content: ''
+    position: absolute
+    bottom: -10px
+    left: 0px
+    width: 100%
+    height: 77px
+    transform: translateX(0px)
+    background: url('../assets/bullets/icon1.svg') transparent no-repeat bottom left
+
+/*Componets custom*/
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content,
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #F1D3F6 !important
+.linea-tiempo-d.color-primario .linea-tiempo-d__item__content,
+.linea-tiempo-d.color-primario .linea-tiempo-d__item__number
+  background-color: #D4F0E0 !important
+
+.lista-ul--color.color-adicional-1 li > i:first-of-type
+  color: $color-adicional-1 !important
+.tarjeta--boton.color-primario
+  background-color: #F1D3F6 !important
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    background-color: $color-acento-botones;
+.slyder-a__bullets__item 
+    background-color: #B2FAFC
+    border: 1px solid #B2FAFC;
+.slyder-a__bullets__item--active 
+    background-color: $color-acento-contenido !important
+    border-color: $color-acento-contenido !important;
+
+// Slider Bullet Responsive Styles
+@media screen and (max-width: $bp-max-sm)
+ .slyder-a__bullets__item
+   margin: 0 3px
+
+// Custom List Styles
+.custom-list
+  list-style-type: none
+  padding-left: 0
+  
+  li
+    position: relative
+    padding-left: 1.4rem
+    
+    &::before
+      //content: url('../assets/bullets/icon2.svg')
+      position: absolute
+      left: 0
+      top: 2%
+      width: 13px
+      height: 13px
+
+
+
+// Carousel Styles
+.carousel-bg .fas
+ &.fa-chevron-left, &.fa-chevron-right
+   display: inline-flex
+   align-items: center
+   justify-content: center
+   width: 40px
+   height: 40px
+   background-color: $color-acento-botones
+   border-radius: 50%
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+   color: #fff
+   font-size: 16px
+
+
+// Slider Responsive Styles
+@media screen and (max-width: $bp-max-sm)
+ .slyder-f
+   &__main
+     width: 76%
+   &__btn
+     width: 12%
+
+@media screen and (max-width: $bp-max-xs)
+ .slyder-f
+   &__main
+     width: 60%
+   &__btn
+     width: 20%
+
+
+.acordion__accion__btn--a
+  background-color: #F13C0E !important
+  i
+    color: white !important
+
+.acordion__activo
+  background-color: #FCF2CE !important
+
+.tabs-b__tab 
+  background-color: #E8F5D5;
+
+.tabs-b.color-primario .tabs-b__tab--active
+  background-color: #FFF !important
+
+.tabs-b__content-item
+  background-color: #FDF8E5 !important
+
+
+.tabs-a__tab
+  background-color: #E8F5D5
+
+
+.rounded-bottom
+  border-bottom-left-radius: 16px !important
+  border-bottom-right-radius: 16px !important
+
+.rounded-top
+  border-top-left-radius: 16px !important
+  border-top-right-radius: 16px !important
+
+
+.bg-h80-p10
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    top: 50%
+    left: 0
+    width: 100%
+    height: 60%
+    transform: translateY(-50%)
+    background-color: #EFD42F
+    z-index: 0
+
+  .col-lg-7, .row
+    z-index: 1
+
+
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+    
+    &::after
+      height: 100%

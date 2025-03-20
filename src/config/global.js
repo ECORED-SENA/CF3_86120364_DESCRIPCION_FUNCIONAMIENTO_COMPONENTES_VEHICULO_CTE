@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Sistema de propulsión en vehículos',
+    Description:
+      'El componente formativo explica el funcionamiento de los semiejes, juntas homocinéticas y sistemas de propulsión en vehículos. Detalla su instalación, mantenimiento y revisión, incluyendo diferencias entre juntas universales y homocinéticas. Además, describe el uso de tricetas en semiejes y su aplicación en ejes rígidos, resaltando su importancia en la transmisión de torque y el movimiento del automóvil.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,13 +36,18 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Semiejes de propulsión',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Con juntas universales',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Con juntas homocinéticas',
+            hash: 't_1_2',
           },
         ],
       },
@@ -45,13 +55,13 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Instalación, mantenimiento y revisión de semiejes',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Variantes de semiejes y su funcionamiento',
         desarrolloContenidos: true,
       },
     ],
