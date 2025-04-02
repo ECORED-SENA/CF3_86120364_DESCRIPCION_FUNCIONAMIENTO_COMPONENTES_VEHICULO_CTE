@@ -7,7 +7,7 @@
         span 3
       h1 Variantes de semiejes y su funcionamiento
 
-    p(data-aos="fade-up").mb-4.mb-lg-5 Existen diferentes configuraciones de semiejes que varían según el tipo de articulación utilizada para transmitir el movimiento del diferencial a las ruedas motrices. Una de las configuraciones más utilizadas combina juntas homocinéticas externas con tricetas internas, optimizando la transmisión del torque y la flexibilidad del sistema.
+    p(data-aos="fade-up").mb-5.pb-4 Existen diferentes configuraciones de semiejes que varían según el tipo de articulación utilizada para transmitir el movimiento del diferencial a las ruedas motrices. Una de las configuraciones más utilizadas combina juntas homocinéticas externas con tricetas internas, optimizando la transmisión del torque y la flexibilidad del sistema.
 
     .titulo-tres.mb-5(data-aos="flip-up")
       h4(data-aos="fade-up") Semiejes con juntas homocinéticas externas y tricetas internas
@@ -22,7 +22,7 @@
               .row.align-items-center
                 .col-auto
                   figure
-                    img(src='@/assets/curso/tema3/1.svg', alt='Icono de mecánico', style="max-width: 90px;").rounded-circle.bg-white.p-2
+                    img(src='@/assets/curso/tema3/1.svg', alt='', style="max-width: 90px;")
                 .col
                   p.text-white El sistema tradicional de semiejes incluye dos juntas homocinéticas: una en la salida del diferencial y otra cerca de la rueda motriz. Sin embargo, en algunos diseños, se ha optado por reemplazar la junta homocinética interna por una triceta, manteniendo la homocinética en la parte externa del eje.
 
@@ -78,68 +78,70 @@
           h4.mb-3.text-center Canastilla
           p.mb-0.text-center Los rodamientos de palillos en los rodillos reducen la fricción y mejoran el movimiento.
 
-    p(data-aos="fade-up").mb-4.mb-lg-5 Esta configuración es ampliamente utilizada en vehículos de tracción delantera, donde se requiere un equilibrio entre flexibilidad, durabilidad y eficiencia en la transmisión del torque.
+    p(data-aos="fade-up").mb-4.mb-lg-5.pb-4 Esta configuración es ampliamente utilizada en vehículos de tracción delantera, donde se requiere un equilibrio entre flexibilidad, durabilidad y eficiencia en la transmisión del torque.
 
-    .titulo-tres.mb-4(data-aos="flip-up")
+    .titulo-tres.mb-5(data-aos="flip-up")
       h4(data-aos="fade-up") Los semiejes de propulsión y tricetas
 
-    .row.mb-5.align-items-stretch
-      .col-lg-5
-        .bg-color-acento-contenido.p-4.pt-md-5.h-100
-          p.mb-0.text-white El sistema de semiejes con tricetas internas ofrece una ventaja clave: el semieje queda flotante dentro de la manzana de salida del diferencial. Esta característica permite que el eje trabaje de manera alineada mientras gira y transmite torque a las ruedas. Además, facilita la compensación de la longitud del semieje cuando la suspensión alcanza su máxima extensión, lo que mejora la estabilidad y el desempeño del sistema de tracción.
+    .bg-full-width-2.bg-fondo-11
+      .px-4.px-md-5
+        .row.mb-5.align-items-stretch
+          .col-lg-5.mb-4.mb-lg-0
+            .bg-color-acento-contenido.p-4.pt-md-5.h-100
+              p.mb-0.text-white El sistema de semiejes con tricetas internas ofrece una ventaja clave: el semieje queda flotante dentro de la manzana de salida del diferencial. Esta característica permite que el eje trabaje de manera alineada mientras gira y transmite torque a las ruedas. Además, facilita la compensación de la longitud del semieje cuando la suspensión alcanza su máxima extensión, lo que mejora la estabilidad y el desempeño del sistema de tracción.
 
-      .col-lg-7
-        .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 4.
-          span Despiece y funcionamiento de la triceta en el sistema de transmisión
-        figure
-          img(src='@/assets/curso/tema3/f4.png', alt='Despiece de una triceta con sus componentes internos y su conexión con el sistema de transmisión.')
-
-
-
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .bg-color-1.p-4
-          .row.justify-content-center
-            .col-lg-auto
-              figure
-                img(src="@/assets/curso/intro/2.svg", alt="")
-            .col-lg
-              p.mb-0
-                | Una correcta instalación y verificación final garantizarán el óptimo desempeño del sistema de propulsión, evitando desgastes prematuros y fallos mecánicos.
-    
-
-    div.row.justify-content-center.align-items-stretch.mb-4
-      div.col-md-6.col-lg-4.mb-4(data-aos="zoom-in-up")
-        .tarjeta.div.bg-color-6.box-shadow.px-4.py-5.h-100.position-relative
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/tema3/6.svg"
-            alt="Icono de elevación de vehículo"
-            style="width: 95px"
-          )
-          h4.mb-3.text-center Variaciones en la altura del vehículo
-          p.mb-0.text-center Puede afectar la alineación y provocar que el semieje se salga de su alojamiento interno.
+          .col-lg-7
+            .titulo-sexto.color-acento-contenido.mb-4
+              h5 Figura 4.
+              span Despiece y funcionamiento de la triceta en el sistema de transmisión
+            figure
+              img(src='@/assets/curso/tema3/f4.png', alt='Despiece de una triceta con sus componentes internos y su conexión con el sistema de transmisión.')
 
 
-      div.col-md-6.col-lg-4.mb-4(data-aos="zoom-in-up")
-        .tarjeta.div.bg-color-6.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/tema3/7.svg"
-            alt="Icono de chasis"
-            style="width: 95px"
-          )
-          h4.mb-3.text-center Modificaciones en el chasis o carrocería
-          p.mb-0.text-center Pueden alterar la distancia entre la rueda y la manzana del diferencial, comprometiendo el funcionamiento del semieje.
 
-      div.col-md-6.col-lg-4.mb-4(data-aos="zoom-in-up")
-        .tarjeta.div.bg-color-6.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/tema3/8.svg"
-            alt="Icono de rueda y alineación"
-            style="width: 95px"
-          )
-          h4.mb-3.text-center Mala alineación de las ruedas motrices
-          p.mb-0.text-center Genera desplazamientos irregulares en la triceta, afectando su estabilidad y durabilidad.
+        .row.justify-content-center.mb-5
+          .col-lg-10
+            .bg-color-1.p-4
+              .row.justify-content-center
+                .col-lg-auto
+                  figure
+                    img(src="@/assets/curso/intro/2.svg", alt="", style="max-width: 90px").mx-auto.mb-4.mb-lg-0
+                .col-lg
+                  p.mb-0
+                    | A pesar de sus beneficios, el uso de tricetas internas puede presentar ciertas limitaciones, especialmente si el vehículo experimenta modificaciones estructurales o desajustes en la alineación.
+        
+
+        div.row.justify-content-center.align-items-stretch.mb-4
+          div.col-md-6.col-lg-4.mb-4(data-aos="zoom-in-up")
+            .tarjeta.div.bg-color-6.box-shadow.px-4.py-5.h-100.position-relative
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema3/6.svg"
+                alt="Icono de elevación de vehículo"
+                style="width: 95px"
+              )
+              h4.mb-3.text-center Variaciones en la altura del vehículo
+              p.mb-0.text-center Puede afectar la alineación y provocar que el semieje se salga de su alojamiento interno.
+
+
+          div.col-md-6.col-lg-4.mb-4(data-aos="zoom-in-up")
+            .tarjeta.div.bg-color-6.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema3/7.svg"
+                alt="Icono de chasis"
+                style="width: 95px"
+              )
+              h4.mb-3.text-center Modificaciones en el chasis o carrocería
+              p.mb-0.text-center Pueden alterar la distancia entre la rueda y la manzana del diferencial, comprometiendo el funcionamiento del semieje.
+
+          div.col-md-6.col-lg-4.mb-4(data-aos="zoom-in-up")
+            .tarjeta.div.bg-color-6.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema3/8.svg"
+                alt="Icono de rueda y alineación"
+                style="width: 95px"
+              )
+              h4.mb-3.text-center Mala alineación de las ruedas motrices
+              p.mb-0.text-center Genera desplazamientos irregulares en la triceta, afectando su estabilidad y durabilidad.
 
     p(data-aos="fade-up").mb-4.mb-lg-5 En condiciones normales, el sistema de tricetas está diseñado para soportar un rango de desplazamiento dentro de las tolerancias del vehículo. Sin embargo, si estas tolerancias se exceden, se pueden generar fallos en el sistema.
 
@@ -150,12 +152,12 @@
     p(data-aos="fade-up").mb-4.mb-lg-5 El diseño del sistema de tricetas permite que los rodillos, en lugar de bolas de acero, se desplacen dentro de ranuras más largas en la manzana externa. Esto permite un movimiento controlado hacia adentro o hacia afuera, ajustando la longitud del semieje según la variación de altura de la suspensión. Para garantizar su correcto desempeño y durabilidad, el sistema incluye un guardapolvo externo, que cumple dos funciones principales:
 
     .row.mb-5.justify-content-center
-      .col-lg-6
+      .col-lg-6.mb-4.mb-lg-0
         .tarjeta.bg-color-acento-contenido.p-4
           .row.justify-content-center.align-items-center
             .col-lg-auto
               figure
-                img(src="@/assets/curso/tema3/9.svg", alt="")
+                img(src="@/assets/curso/tema3/9.svg", alt="", style="max-width: 90px").mx-auto.mb-4.mb-lg-0
             .col-lg
               p.mb-0.text-white
                 | Proteger los componentes internos contra la entrada de polvo y agua
@@ -164,12 +166,12 @@
           .row.justify-content-center.align-items-center
             .col-lg-auto
               figure
-                img(src="@/assets/curso/tema3/9.svg", alt="")
+                img(src="@/assets/curso/tema3/9.svg", alt="", style="max-width: 90px").mx-auto.mb-4.mb-lg-0
             .col-lg
               p.mb-0.text-white
                 | Actuar como fuelle, permitiendo el desplazamiento lateral del semieje sin comprometer su funcionamiento
 
-    p(data-aos="fade-up").mb-4.mb-lg-5 Este diseño optimiza la respuesta del vehículo ante cambios en la suspensión y mantiene la estabilidad del sistema de tracción en diferentes condiciones de manejo.
+    p(data-aos="fade-up").mb-5.pb-4 Este diseño optimiza la respuesta del vehículo ante cambios en la suspensión y mantiene la estabilidad del sistema de tracción en diferentes condiciones de manejo.
 
     .titulo-tres.mb-4(data-aos="flip-up")
       h4(data-aos="fade-up") Trabajo con los semiejes de propulsión con tricetas
@@ -201,7 +203,7 @@
             p Extraer el seguro alojado en el extremo del eje estriado.
           
           .div(numero="B" titulo="Limpieza de componentes")
-            p.text-small Desmontar y limpiar cuidadosamente todas las piezas.
+            p Desmontar y limpiar cuidadosamente todas las piezas.
           
           .div(numero="C" titulo="Inspección de rodillos y manzanas")
             p Verificar el estado de los rodillos y las manzanas internas.
@@ -242,15 +244,15 @@
         p(data-aos="fade-up") El diseño y la disposición de estos semiejes permiten una transmisión de fuerza directa y eficiente.
 
     .row.mb-5.justify-content-center.align-items-stretch
-      .col-xl-3.col-lg-4
-        .tarjeta.bg-color-secundario.p-4.py-lg-5.h-100
+      .col-xl-3.col-lg-4.mb-4.mb-lg-0
+        .tarjeta.bg-color-secundario.p-4.h-100
           h4.mb-2 Sector estriado del semieje
           p.mb-0 Se inserta en el piñón planetario del diferencial.
-      .col-xl-3.col-lg-4
+      .col-xl-3.col-lg-4.mb-4.mb-lg-0
         .tarjeta.bg-color-secundario.p-4.h-100
           h4.mb-2 Piñones planetarios
           p.mb-0 Al girar, transmiten la fuerza hasta las ruedas de manera directa.
-      .col-xl-3.col-lg-4
+      .col-xl-3.col-lg-4.mb-4.mb-lg-0
         .tarjeta.bg-color-secundario.p-4.h-100
           h4.mb-2 Manzana del semieje
           p.mb-0 Se inserta en el piñón planetario del diferencial.
@@ -277,7 +279,7 @@
     .row.justify-content-center
       .col-lg-10
         .bg-color-1.p-4
-          .row.justify-content-center
+          .row.justify-content-center.align-items-center
             .col-lg-auto
               figure
                 img(src="@/assets/curso/intro/2.svg", alt="")

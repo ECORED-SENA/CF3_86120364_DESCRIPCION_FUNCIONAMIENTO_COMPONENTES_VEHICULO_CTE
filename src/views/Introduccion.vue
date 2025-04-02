@@ -25,7 +25,7 @@
           .row.justify-content-center
             .col-lg-auto
               figure
-                img(src="@/assets/curso/intro/2.svg", alt="")
+                img(src="@/assets/curso/intro/2.svg", alt="", style="max-width: 90px;").mx-auto.mb-4.mb-lg-0
             .col-lg
               p.mb-0
                 | Este componente formativo presenta una descripción detallada sobre la estructura, funcionamiento e instalación de los semiejes, las juntas homocinéticas y los sistemas de propulsión en ejes rígidos. También aborda los procedimientos de mantenimiento y revisión de estos componentes, asegurando un desempeño óptimo del sistema de tracción en distintos tipos de automóviles.

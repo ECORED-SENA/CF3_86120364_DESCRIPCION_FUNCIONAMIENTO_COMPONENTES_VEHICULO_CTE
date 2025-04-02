@@ -16,33 +16,36 @@
         figure
           img(src='@/assets/curso/tema2/1.svg', alt='')
           
-    .titulo-tres.mb-4(data-aos="flip-up").mb-4
-      h4(data-aos="fade-up") Instalación de los semiejes homocinéticos
+
+    .bg-full-width.bg-fondo-10
+      .px-4.px-md-5
+        .titulo-tres.mb-4(data-aos="flip-up").mb-4
+          h4(data-aos="fade-up") Instalación de los semiejes homocinéticos
 
     
-    .row.mb-5
-      .col-lg-7
+        .row.mb-5
+          .col-lg-7
 
-        p(data-aos="fade-up").mb-4 Cada semieje de una rueda delantera debe ajustarse a la manzana de la rueda para transmitir el movimiento generado por el sistema diferencial
+            p(data-aos="fade-up").mb-4 Cada semieje de una rueda delantera debe ajustarse a la manzana de la rueda para transmitir el movimiento generado por el sistema diferencial
 
-        .tarjeta.bg-color-acento-contenido.p-4(data-aos="fade-up")
-          p.mb-0.text-white
-            | Para lograrlo, la punta externa del sistema homocinético se integra con la punta del eje de la rueda. Como este eje debe girar, se instala en los rodamientos de la punta, los cuales están alojados en el soporte de la suspensión de la rueda.
+            .tarjeta.bg-color-acento-contenido.p-4(data-aos="fade-up").mb-4.mb-lg-0
+              p.mb-0.text-white
+                | Para lograrlo, la punta externa del sistema homocinético se integra con la punta del eje de la rueda. Como este eje debe girar, se instala en los rodamientos de la punta, los cuales están alojados en el soporte de la suspensión de la rueda.
 
-      .col-lg-5
-        figure
-          img(src='@/assets/curso/tema2/2.png', alt='')
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/tema2/2.png', alt='')
 
 
     p(data-aos="fade-up").mb-4 Los componentes clave en la instalación son:
 
-    .row.mb-5
+    .row.mb-4
       .col-lg-3.d-none.d-lg-block.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema2/3.png" alt="").img-fluid
       .col-lg-9
         
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Punta externa del sistema homocinético")
             .col-12
               p Se convierte en la punta del eje de la rueda y permite la transmisión del movimiento.
@@ -79,13 +82,13 @@
           SlyderA(tipo="b")
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-0
-                h4.mb-3 Conexión con la rueda motriz
+                h4.mb-4 Conexión con la rueda motriz
                 ul.lista-ul
                   li 
-                    i.fas.fa-wrench.text-primary
+                    i.fas.fa-wrench.text-primary.mb-2
                     | El extremo del semieje con el sistema homocinético cuenta con un sector estriado.
                   li 
-                    i.fas.fa-wrench.text-primary
+                    i.fas.fa-wrench.text-primary.mb-2
                     | Este sector ingresa en la manzana estriada de la rueda motriz, permitiendo que ambos giren en conjunto y transmitan el torque.
               .col-md-5
                 figure
@@ -94,16 +97,16 @@
             
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-0
-                h4.mb-3 Estructura interna
+                h4.mb-4 Estructura interna
                 ul.lista-ul
                   li 
-                    i.fas.fa-wrench.text-primary
+                    i.fas.fa-wrench.text-primary.mb-2
                     | En la manzana se encuentra la canastilla separadora, encargada de alojar y guiar las bolas de acero.
                   li 
-                    i.fas.fa-wrench.text-primary
+                    i.fas.fa-wrench.text-primary.mb-2
                     | Dentro de la canastilla, se insertan las bolas de acero que permiten el desplazamiento.
                   li 
-                    i.fas.fa-wrench.text-primary
+                    i.fas.fa-wrench.text-primary.mb-2
                     | En el centro, se ubica la manzana interior, que también posee un estriado en su interior para la inserción del semieje.
               .col-md-5
                 figure
@@ -112,13 +115,13 @@
             
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-0
-                h4.mb-3 Aseguramiento del semieje
+                h4.mb-4 Aseguramiento del semieje
                 ul.lista-ul
                   li 
-                    i.fas.fa-wrench.text-primary
+                    i.fas.fa-wrench.text-primary.mb-2
                     | El eje sólido avanza hasta el tope dentro de la manzana estriada.
                   li 
-                    i.fas.fa-wrench.text-primary
+                    i.fas.fa-wrench.text-primary.mb-2
                     | Un seguro fija la posición del eje, evitando movimientos indeseados.
               .col-md-5
                 figure
@@ -132,11 +135,11 @@
           figure
             img(src='@/assets/curso/tema2/4.png', alt='')
         .col-lg
-          .pe-5
+          .p-4.p-lg-0.pe-lg-5
             h4.mb-4(data-aos="fade-up").text-white Importancia de la correcta instalación
             p.mb-0(data-aos="fade-up").text-white Es crucial colocar la manzana interna en la posición adecuada, ya que tiene un lado definido. Si se instala de manera incorrecta, el sistema homocinético trabajará descentrado, generándotela un esfuerzo superior al previsto. Esto puede provocar desgaste prematuro y fallos en el sistema, especialmente al girar con gran torque. La referencia principal para el montaje es la posición de seguro de fijación, que indica la orientación correcta de la manzana interna.
 
-    .bg-full-width-2.bg-fondo-4.mb-5
+    .bg-full-width-2.bg-fondo-4.mb-5.pt-4
       .px-4.px-md-5.pb-4.pb-md-5
 
         .titulo-tres.mb-4(data-aos="flip-up")
@@ -158,7 +161,7 @@
               img(src='@/assets/curso/tema2/f2.png', alt='Proceso de ensamblaje de una junta homocinética con sus componentes internos y herramientas necesarias.')
 
 
-    .row.mb-5
+    .row
       .col-lg-4
         figure
           img(src='@/assets/curso/tema2/5.png', alt='')
@@ -182,7 +185,7 @@
               p Si el seguro es desmontable, retirarlo; si es de presión, golpear suavemente con un martillo de goma o plástico.
           
 
-    .row.mb-5
+    .row
       .col-lg-8
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Extracción de las bolas de acero")
@@ -202,11 +205,11 @@
               p Se recomienda cambiarlas incluso si parecen en buen estado. Ajustar correctamente las abrazaderas para evitar fugas o movimientos indeseados.
       .col-lg-4
         figure
-          img(src='@/assets/curso/tema2/5.png', alt='')
+          img(src='@/assets/curso/tema2/6.png', alt='')
 
-    p(data-aos="fade-up").mb-5 Realizar este procedimiento con precisión garantiza que la junta homocinética funcione correctamente y prolonga la vida útil del sistema de transmisión del vehículo.
+    p(data-aos="fade-up").mb-5.pb-4 Realizar este procedimiento con precisión garantiza que la junta homocinética funcione correctamente y prolonga la vida útil del sistema de transmisión del vehículo.
 
-    .titulo-tres.mb-4(data-aos="flip-up")
+    .titulo-tres.mb-5(data-aos="flip-up")
       h4(data-aos="fade-up") Armado y comprobación de los homocinéticos
 
     p(data-aos="fade-up").mb-4 Después de desarmar, revisar y engrasar las juntas homocinéticas de los semiejes propulsores, es fundamental realizar una correcta instalación y verificación para garantizar el buen funcionamiento del sistema de tracción. Un ensamblaje inadecuado puede generar daños en los componentes, afectar la estabilidad del vehículo y comprometer la seguridad en la conducción.
@@ -268,11 +271,8 @@
           SlyderA(tipo="b")
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-0
-                h4.mb-3 Desalineación de ruedas
-                ul.lista-ul
-                  li
-                    i.fas.fa-wrench.text-primary
-                    | Puede dañar el semieje y provocar su salida del diferencial en curvas.
+                h4.mb-4 Desalineación de ruedas
+                p Puede dañar el semieje y provocar su salida del diferencial en curvas.
               .col-md-5
                 figure
                   img(src='@/assets/curso/tema2/slide-1-2.png', alt='Camión con ruedas desalineadas')
@@ -280,11 +280,8 @@
             
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-0
-                h4.mb-3 Elevación del vehículo
-                ul.lista-ul
-                  li
-                    i.fas.fa-wrench.text-primary
-                    | El semieje podría no alcanzar las ruedas motrices, generando esfuerzos adicionales y posibles desprendimientos.
+                h4.mb-4 Elevación del vehículo
+                p El semieje podría no alcanzar las ruedas motrices, generando esfuerzos adicionales y posibles desprendimientos.
               .col-md-5
                 figure
                   img(src='@/assets/curso/tema2/slide-2-2.png', alt='Vehículo elevado en rampa')
@@ -292,11 +289,8 @@
             
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-0
-                h4.mb-3 Longitud insuficiente del semieje
-                ul.lista-ul
-                  li
-                    i.fas.fa-wrench.text-primary
-                    | Si la suspensión se modifica sin considerar la compensación de longitud, el semieje podría no adaptarse correctamente y fallar en su funcionamiento.
+                h4.mb-4 Longitud insuficiente del semieje
+                p Si la suspensión se modifica sin considerar la compensación de longitud, el semieje podría no adaptarse correctamente y fallar en su funcionamiento.
               .col-md-5
                 figure
                   img(src='@/assets/curso/tema2/slide-3-2.png', alt='Detalle de suspensión y semieje')
@@ -306,10 +300,10 @@
     .row.justify-content-center
       .col-lg-10
         .bg-color-1.p-4
-          .row.justify-content-center
+          .row.justify-content-center.align-items-center
             .col-lg-auto
               figure
-                img(src="@/assets/curso/intro/2.svg", alt="")
+                img(src="@/assets/curso/intro/2.svg", alt="", style="max-width: 90px").mx-auto.mb-4.mb-lg-0
             .col-lg
               p.mb-0
                 | Una correcta instalación y verificación final garantizarán el óptimo desempeño del sistema de propulsión, evitando desgastes prematuros y fallos mecánicos.

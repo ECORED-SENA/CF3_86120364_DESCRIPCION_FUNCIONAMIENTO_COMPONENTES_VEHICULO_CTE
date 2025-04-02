@@ -124,23 +124,21 @@ export default {
       referencia:
         'JAES Company Español. (2021). ¿Cómo funciona la Junta Cardán (Universal)? La diferencia con la Junta Homocinética. [Archivo de video] Youtube.',
       tipo: 'Video',
-      link:
-        'https://www.youtube.com/watch?v=vxPCwlxaLmk&ab_channel=JAESCompanyEspa%C3%B1ol',
+      link: 'https://www.youtube.com/watch?v=vxPCwIxaLmk',
     },
     {
       tema: 'Con juntas homocinéticas',
       referencia:
         'AUTOTECNICATV. (2016). Cómo funcionan las Juntas Homocinéticas. [Archivo de video] Youtube.',
       tipo: 'Video',
-      link:
-        'https://www.youtube.com/watch?v=ebAHuLfMWnk&ab_channel=AUTOTECNICATV',
+      link: 'https://www.youtube.com/watch?v=ebAHuLfMWnk',
     },
     {
       tema: 'Instalación, mantenimiento y revisión de semiejes',
       referencia:
         'Elecktro fe2. (2022). Fallas de la junta homocinética y tips para revisarla fácil. [Archivo de video] Youtube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=McaOE5JloSY&ab_channel=Elecktrof2',
+      link: 'https://www.youtube.com/watch?v=McaOE5JloSY',
     },
   ],
   glosario: [
@@ -197,15 +195,15 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'DANA Transejes Colombia. (2002). Homocinéticos.',
+      referencia: 'DANA Transejes Colombia. (2002). <em>Homocinéticos.</em>',
       link: '',
     },
     {
-      referencia: 'Grupo ROLCAR. (s.f.). Juntas homocinéticas.',
+      referencia: 'Grupo ROLCAR. (s.f.). <em>Juntas homocinéticas.</em>',
       link: '',
     },
     {
-      referencia: 'DANA Transejes Colombia. (2002). Homocinéticos. ',
+      referencia: 'SKF. (2009). <em>Ejes homocinéticos.</em>',
       link: '',
     },
   ],
@@ -230,7 +228,7 @@ export default {
       autores: [
         {
           nombre: 'Carlos Edwin Abello Rubiano',
-          cargo: 'Experto temáticol',
+          cargo: 'Experto temático',
           centro: 'Centro de Comercio y Turismo - Regional Quindío',
         },
         {
@@ -245,7 +243,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Fabian Zarate',
+          nombre: 'Carlos Julián Ramírez Benítez',
           cargo: 'Diseñador de contenidos',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
@@ -256,14 +254,50 @@ export default {
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
+        {
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete Lenguaje de seña',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete Lenguaje de seña',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Andrés Felipe Guevara Ariza',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
           nombre: 'Jaime Hernan Tejada',
           cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Raúl Mosquera Serrano',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
