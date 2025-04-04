@@ -143,7 +143,7 @@
               h4.mb-3.text-center Mala alineación de las ruedas motrices
               p.mb-0.text-center Genera desplazamientos irregulares en la triceta, afectando su estabilidad y durabilidad.
 
-    p(data-aos="fade-up").mb-4.mb-lg-5 En condiciones normales, el sistema de tricetas está diseñado para soportar un rango de desplazamiento dentro de las tolerancias del vehículo. Sin embargo, si estas tolerancias se exceden, se pueden generar fallos en el sistema.
+    p(data-aos="fade-up").mb-5.pb-3.pb-lg-0 En condiciones normales, el sistema de tricetas está diseñado para soportar un rango de desplazamiento dentro de las tolerancias del vehículo. Sin embargo, si estas tolerancias se exceden, se pueden generar fallos en el sistema.
 
 
     .titulo-tres.mb-4(data-aos="flip-up")
@@ -218,7 +218,7 @@
         figure
           img(src="@/assets/curso/tema3/10.png", alt="") 
 
-    p(data-aos="fade-up").mb-4.mb-lg-5 Este mantenimiento preventivo ayuda a prolongar la vida útil del sistema y evita fallos en la transmisión del torque hacia las ruedas motrices.
+    p(data-aos="fade-up").mb-5.pb-3.pb-lg-0 Este mantenimiento preventivo ayuda a prolongar la vida útil del sistema y evita fallos en la transmisión del torque hacia las ruedas motrices.
 
     .bg-full-width.bg-fondo-8
       .px-4.px-md-5.pb-4.pb-md-5
@@ -282,7 +282,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-auto
               figure
-                img(src="@/assets/curso/intro/2.svg", alt="")
+                img(src="@/assets/curso/intro/2.svg", alt="", style="max-width: 90px;").mx-auto.mb-4.mb-lg-0
             .col-lg
               p.mb-0
                 | Cuando estos elementos están correctamente ajustados, forman un conjunto sólido que permite una transmisión eficiente de la fuerza desde el diferencial hasta las ruedas motrices.

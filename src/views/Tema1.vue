@@ -57,7 +57,7 @@
 
     Separador
 
-    .bg-full-width-2.bg-fondo-9
+    .bg-full-width.bg-fondo-9
       .px-4.px-md-5
 
         .titulo-segundo.color-acento-contenido
