@@ -72,7 +72,7 @@
               .row.align-items-center
                 .col-auto
                   figure
-                    img(src='@/assets/curso/tema1/4.svg', alt='', style="max-width: 90px;").rounded-circle.bg-white.p-2
+                    img(src='@/assets/curso/tema1/4.svg', alt='', style="max-width: 90px;").mx-auto.mb-4.mb-lg-0
                 .col
                   p.text-white El semieje recibe el movimiento del piñón planetario del diferencial y, por ello, en su extremo interno cuenta con un sector estriado que permite girar en conjunto con el planetario y desplazarse lateralmente para compensar variaciones en la distancia entre la rueda y el diferencial.
 
