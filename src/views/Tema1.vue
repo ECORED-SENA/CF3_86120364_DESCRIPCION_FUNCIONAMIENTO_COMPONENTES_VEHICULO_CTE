@@ -60,6 +60,7 @@
     .bg-full-width.bg-fondo-9
       .px-4.px-md-5
 
+        #t_1_1
         .titulo-segundo.color-acento-contenido
           h2 1.1 Con juntas universales
 
@@ -82,7 +83,7 @@
               img(src='@/assets/curso/tema1/3.png', alt='')
 
         Separador
-
+        #t_1_2
         .titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 1.2 Con juntas homocinéticas
 
@@ -169,7 +170,7 @@
       div.col-md-6.col-lg-3.mb-4(data-aos="zoom-in-up")
         div.card.h-100
           div.card-header.text-center.text-white.py-3.bg-color-acento-contenido
-            h5.mb-0 Manzana intena
+            h5.mb-0 Manzana interna
           div.card-body.py-4.px-3.bg-color-4
             p.mb-0.text-center Sujeta el eje rígido y trabaja en conjunto con la manzana externa.
 

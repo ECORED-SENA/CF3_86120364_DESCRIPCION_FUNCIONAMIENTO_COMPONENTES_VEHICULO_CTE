@@ -23,6 +23,8 @@ export default {
       introduccion:
         '<b>Objetivo:</b> Evaluar sobre los semiejes, juntas homocinéticas, tricetas y su función en la transmisión de torque en vehículos, así como su instalación, mantenimiento y posibles fallas asociadas.',
       barajarPreguntas: true,
+      titulo_aprobado: '¡BUEN TRABAJO!..',
+      titulo_reprobado: 'VUELVA A INTENTARLO..',
       preguntas: [
         {
           id: 1,

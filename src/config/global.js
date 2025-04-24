@@ -256,19 +256,19 @@ export default {
         },
         {
           nombre: 'Alejandro Delgado Acosta',
-          cargo: 'Intérprete Lenguaje de seña',
+          cargo: 'Intérprete lenguaje de seña',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Cristhian Giovanni Gordillo Segura',
-          cargo: 'Intérprete Lenguaje de seña',
+          cargo: 'Intérprete lenguaje de seña',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Daniela Muñoz Bedoya',
-          cargo: 'Animador y Productor Multimedia',
+          cargo: 'Animador y productor multimedia',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -302,7 +302,7 @@ export default {
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Daniel Mutis',
+          nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

@@ -2,23 +2,20 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 48%
-    right: 74%
-    width: 98px
+    top: 30%
+    right: 60%
     z-index: 1
   &-2
     animation: float2 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 25%
-    right: 10%
-    width: 98px
+    top: 15%
+    right: 0%
     z-index: 1
   &-3
-    animation: latido 2s ease-in-out infinite alternate
+    animation: float2 2s ease-in-out infinite alternate
     position: absolute
     top: 68%
     right: 20%
-    width: 98px
     z-index: 1
 
 @keyframes float1
@@ -30,17 +27,10 @@
 
 @keyframes float2
   0%
-    transform: translateY(0px)
+    transform: translateX(0px)
 
   100%
-    transform: translateY(20px)
-
-@keyframes latido
-  0%, 100%
-    transform: scale(1)
-  50%
-    transform: scale(1.1)
-  
+    transform: translateX(20px)
   
 .banner-principal .tarjeta
   background-position: left 50% !important
