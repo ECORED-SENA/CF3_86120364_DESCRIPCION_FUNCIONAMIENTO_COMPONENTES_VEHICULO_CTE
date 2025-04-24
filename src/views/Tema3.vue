@@ -36,7 +36,7 @@
           .col-lg-8
             .titulo-sexto.color-acento-contenido.mb-4
               h5 Figura 3.
-              span Sistema de transmisión: triceta y junta homocinética
+              span Sistema de transmisión que incorpora una triceta y una junta homocinética para mejorar la movilidad.
             figure
               img(src='@/assets/curso/tema3/f3.png', alt='Sistema de transmisión: triceta y junta homocinética')
 
@@ -65,7 +65,7 @@
             alt="Icono de manzana interna"
             style="width: 95px"
           )
-          h4.mb-3.text-center Manzana intena
+          h4.mb-3.text-center Manzana interna
           p.mb-0.text-center La manzana de tres puntas permite una alineación precisa del semieje.
 
       div.col-md-6.col-lg-4.mb-4(data-aos="zoom-in-up")
@@ -160,7 +160,7 @@
                 img(src="@/assets/curso/tema3/9.svg", alt="", style="max-width: 90px").mx-auto.mb-4.mb-lg-0
             .col-lg
               p.mb-0.text-white
-                | Proteger los componentes internos contra la entrada de polvo y agua
+                | Proteger los componentes internos contra la entrada de polvo y agua.
       .col-lg-6
         .tarjeta.bg-color-acento-contenido.p-4
           .row.justify-content-center.align-items-center
@@ -169,7 +169,7 @@
                 img(src="@/assets/curso/tema3/9.svg", alt="", style="max-width: 90px").mx-auto.mb-4.mb-lg-0
             .col-lg
               p.mb-0.text-white
-                | Actuar como fuelle, permitiendo el desplazamiento lateral del semieje sin comprometer su funcionamiento
+                | Actuar como fuelle, permitiendo el desplazamiento lateral del semieje sin comprometer su funcionamiento.
 
     p(data-aos="fade-up").mb-5.pb-4 Este diseño optimiza la respuesta del vehículo ante cambios en la suspensión y mantiene la estabilidad del sistema de tracción en diferentes condiciones de manejo.
 

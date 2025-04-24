@@ -51,7 +51,7 @@
           .col-lg-6
             .titulo-sexto.color-acento-contenido.mb-4
               h5 Figura 1.
-              span Sistema de transmisión y tracción delantera en un vehículo
+              span Esquema detallado del sistema de transmisión con motor longitudinal, donde se presentan sus componentes principales.
             figure
               img(src='@/assets/curso/tema1/f1v2.png', alt='Diagrama de sistema de transmisión con partes etiquetadas')
 

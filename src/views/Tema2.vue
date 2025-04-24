@@ -26,7 +26,7 @@
         .row.mb-5
           .col-lg-7
 
-            p(data-aos="fade-up").mb-4 Cada semieje de una rueda delantera debe ajustarse a la manzana de la rueda para transmitir el movimiento generado por el sistema diferencial
+            p(data-aos="fade-up").mb-4 Cada semieje de una rueda delantera debe ajustarse a la manzana de la rueda para transmitir el movimiento generado por el sistema diferencial.
 
             .tarjeta.bg-color-acento-contenido.p-4(data-aos="fade-up").mb-4.mb-lg-0
               p.mb-0.text-white
