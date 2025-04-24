@@ -51,7 +51,7 @@
           .col-lg-6
             .titulo-sexto.color-acento-contenido.mb-4
               h5 Figura 1.
-              span Sistema de transmisión y tracción delantera en un vehículo
+              span Esquema detallado del sistema de transmisión con motor longitudinal, donde se presentan sus componentes principales.
             figure
               img(src='@/assets/curso/tema1/f1v2.png', alt='Diagrama de sistema de transmisión con partes etiquetadas')
 
@@ -169,7 +169,7 @@
       div.col-md-6.col-lg-3.mb-4(data-aos="zoom-in-up")
         div.card.h-100
           div.card-header.text-center.text-white.py-3.bg-color-acento-contenido
-            h5.mb-0 Manzana intena
+            h5.mb-0 Manzana interna
           div.card-body.py-4.px-3.bg-color-4
             p.mb-0.text-center Sujeta el eje rígido y trabaja en conjunto con la manzana externa.
 
