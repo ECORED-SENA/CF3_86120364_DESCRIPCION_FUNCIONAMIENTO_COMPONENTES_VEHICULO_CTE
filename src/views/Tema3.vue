@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.overflow-hidden
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Variantes de semiejes y su funcionamiento
@@ -11,7 +11,6 @@
 
     .titulo-tres.mb-5(data-aos="flip-up")
       h4(data-aos="fade-up") Semiejes con juntas homocinéticas externas y tricetas internas
-
 
     .bg-full-width-2.bg-fondo-5
       .px-4.px-md-5.pb-4.pb-md-5
@@ -39,13 +38,12 @@
               span Sistema de transmisión que incorpora una triceta y una junta homocinética para mejorar la movilidad.
             figure
               img(src='@/assets/curso/tema3/f3.png', alt='Sistema de transmisión: triceta y junta homocinética')
+            figcaption.mt-2 #[b Nota.] Sistema de transmisión que incorpora una triceta y una junta homocinética para mejorar la movilidad. (s.f.). [Imagen].
 
     .bg-color-1.tarjeta.px-4.py-2.d-inline-block(data-aos="fade-up").mb-4
       h4(data-aos="fade-up").mb-0  Ventajas del sistema de tricetas internas
 
     p(data-aos="fade-up").mb-4 Este sistema presenta diversas ventajas en comparación con el uso exclusivo de juntas homocinéticas:
-
-
 
     div.row.justify-content-center.align-items-stretch.mb-4
       div.col-md-6.col-lg-4.mb-4(data-aos="zoom-in-up")
@@ -96,8 +94,7 @@
               span Despiece y funcionamiento de la triceta en el sistema de transmisión
             figure
               img(src='@/assets/curso/tema3/f4.png', alt='Despiece de una triceta con sus componentes internos y su conexión con el sistema de transmisión.')
-
-
+            figcaption.mt-2 #[b Nota.] Despiece y funcionamiento de la triceta en el sistema de transmisión. (s.f.). [Imagen].
 
         .row.justify-content-center.mb-5
           .col-lg-10
@@ -109,7 +106,6 @@
                 .col-lg
                   p.mb-0
                     | A pesar de sus beneficios, el uso de tricetas internas puede presentar ciertas limitaciones, especialmente si el vehículo experimenta modificaciones estructurales o desajustes en la alineación.
-        
 
         div.row.justify-content-center.align-items-stretch.mb-4
           div.col-md-6.col-lg-4.mb-4(data-aos="zoom-in-up")
@@ -121,7 +117,6 @@
               )
               h4.mb-3.text-center Variaciones en la altura del vehículo
               p.mb-0.text-center Puede afectar la alineación y provocar que el semieje se salga de su alojamiento interno.
-
 
           div.col-md-6.col-lg-4.mb-4(data-aos="zoom-in-up")
             .tarjeta.div.bg-color-6.box-shadow.px-4.py-5.h-100
@@ -144,7 +139,6 @@
               p.mb-0.text-center Genera desplazamientos irregulares en la triceta, afectando su estabilidad y durabilidad.
 
     p(data-aos="fade-up").mb-5.pb-3.pb-lg-0 En condiciones normales, el sistema de tricetas está diseñado para soportar un rango de desplazamiento dentro de las tolerancias del vehículo. Sin embargo, si estas tolerancias se exceden, se pueden generar fallos en el sistema.
-
 
     .titulo-tres.mb-4(data-aos="flip-up")
       h4(data-aos="fade-up") Funcionamiento del sistema de tricetas
@@ -178,7 +172,6 @@
 
     p(data-aos="fade-up").mb-4.mb-lg-5 El sistema de tricetas, al ser menos complejo que el de juntas homocinéticas, requiere un mantenimiento más sencillo y su desmontaje es menos laborioso. Su diseño permite una transmisión eficiente del movimiento del piñón planetario del diferencial hasta la rueda motriz.
 
-
     .bg-full-width-2.bg-fondo-8
       .px-4.px-md-5.pb-4.pb-md-5
         .row.mb-5.justify-content-center
@@ -188,13 +181,12 @@
               span Detalle de la triceta en el sistema de transmisión
             figure
               img(src='@/assets/curso/tema3/f5.png', alt='Vista ampliada de una triceta con sus rodillos y estrías para mejorar la transmisión de potencia.|')
-
+            figcaption.mt-2 #[b Nota.] Detalle de la triceta en el sistema de transmisión. (s.f.). [Imagen].
 
         .bg-color-1.tarjeta.px-4.py-2.d-inline-block(data-aos="fade-up").mb-4
           h4(data-aos="fade-up").mb-0  Proceso de desmontaje y mantenimiento
 
         p(data-aos="fade-up").mb-4.mb-lg-5 Para garantizar el correcto funcionamiento del sistema de tricetas, se recomienda seguir estos pasos al realizar su mantenimiento o reemplazo:
-
 
     .row.mb-5.justify-content-center
       .col-lg-6
@@ -227,7 +219,6 @@
 
         p(data-aos="fade-up").mb-4.mb-lg-5 Hasta ahora, los semiejes analizados han funcionado de manera independiente, sin formar parte estructural del eje delantero o posterior del vehículo. Sin embargo, en algunos casos, los semiejes se encuentran alojados dentro de una funda o tubo, formando parte del eje rígido. Este tipo de configuración es utilizada en vehículos de grandes dimensiones, como camionetas, todoterrenos, camiones y buses.
 
-
         .row.mb-5.justify-content-center
           .col-lg-8
             .titulo-sexto.color-acento-contenido.mb-4
@@ -235,6 +226,7 @@
               span Eje de transmisión con brida y estrías de acople
             figure
               img(src='@/assets/curso/tema3/f6.png', alt='Representación de un eje de transmisión con brida y estrías en su extremo para la conexión con el diferencial.', style="max-width: 820px;")
+            figcaption.mt-2 #[b Nota.] Eje de transmisión con brida y estrías de acople. (s.f.). [Imagen].
 
         p(data-aos="fade-up").mb-4.mb-lg-5 El diferencial en este caso, está ubicado dentro de la funda del eje rígido y también aloja los semiejes de rueda.
         

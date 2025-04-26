@@ -2,11 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.overflow-hidden
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Instalación, mantenimiento y revisión de semiejes
-
 
     .row.mb-5
       .col-lg
@@ -22,7 +21,6 @@
         .titulo-tres.mb-4(data-aos="flip-up").mb-4
           h4(data-aos="fade-up") Instalación de los semiejes homocinéticos
 
-    
         .row.mb-5
           .col-lg-7
 
@@ -73,7 +71,6 @@
       h4(data-aos="fade-up") Con junta homocinética
 
     p(data-aos="fade-up").mb-4 El sistema homocinético permite una transmisión eficiente del movimiento mientras la rueda cambia de ángulo. Su diseño interno se basa en sectores ranurados dentro de la manzana externa, donde se desplazan las bolas de acero. Estas permanecen centradas gracias a una canastilla, que también las mantiene separadas y las guía en su recorrido. El funcionamiento del sistema homocinético es:
-
 
     .bg-full-width.bg-fondo-slider(data-aos="fade-down").mb-5
       .p-4.p-md-5       
@@ -128,7 +125,6 @@
                   img(src='@/assets/curso/tema2/slide-3.png', alt='Semieje completo con sistema homocinético')
                   .punto-amarillo
 
-
     .bg-color-acento-contenido.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
         .col-lg-auto
@@ -159,7 +155,7 @@
               span Proceso de desmontaje y mantenimiento de una junta homocinética
             figure
               img(src='@/assets/curso/tema2/f2.png', alt='Proceso de ensamblaje de una junta homocinética con sus componentes internos y herramientas necesarias.')
-
+            figcaption.mt-2 #[b Nota.] Proceso de desmontaje y mantenimiento de una junta homocinética. (s.f.). [Imagen].
 
     .row
       .col-lg-4
@@ -183,7 +179,6 @@
           .row(titulo="Desmontaje del eje sólido")
             .col-12
               p Si el seguro es desmontable, retirarlo; si es de presión, golpear suavemente con un martillo de goma o plástico.
-          
 
     .row
       .col-lg-8
@@ -295,7 +290,6 @@
                 figure
                   img(src='@/assets/curso/tema2/slide-3-2.png', alt='Detalle de suspensión y semieje')
                   .punto-amarillo
-
 
     .row.justify-content-center
       .col-lg-10

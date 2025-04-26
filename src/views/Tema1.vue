@@ -2,11 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.overflow-hidden
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Semiejes de propulsión
- 
 
     .bg-full-width-2.bg-fondo-2
       .px-4.px-md-5.pb-4.pb-md-5
@@ -54,6 +53,7 @@
               span Esquema detallado del sistema de transmisión con motor longitudinal, donde se presentan sus componentes principales.
             figure
               img(src='@/assets/curso/tema1/f1v2.png', alt='Diagrama de sistema de transmisión con partes etiquetadas')
+            figcaption.mt-2 #[b Nota.] Esquema detallado del sistema de transmisión con motor longitudinal, donde se presentan sus componentes principales. (s.f.). [Imagen].
 
     Separador
 
@@ -192,7 +192,6 @@
       h4(data-aos="fade-up") Con sistemas homocinéticos
 
     p(data-aos="fade-up").mb-4 El sistema de articulación debe garantizar la propulsión de la rueda mientras actúa la suspensión y cuando esta describe una curva pronunciada. Este esfuerzo es mayor en la rueda y menor en la salida del diferencial, ya que la rueda cambia de ángulo al girar, mientras que el diferencial permanece fijo. En el eje posterior, al no girar las ruedas, la articulación solo debe compensar el ángulo generado por el recorrido de la suspensión.
-
 
     .row.mb-5.align-items-stretch
       .col-lg-7.order-2.order-lg-1
